@@ -1,0 +1,32 @@
+body{
+    background-color:rgb(255, 136, 0);
+
+    
+    
+}
+#content{
+    background-color: black;
+    
+    
+}
+.box {
+    display: flex; /* Sử dụng flexbox */
+    justify-content: space-around; /* Các div con căn cách xa nhau */
+    align-items: center; /* Căn giữa theo chiều dọc */
+}
+.Pagination{
+    display: flex; /* Sử dụng flexbox để căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa theo chiều dọc */
+}
+table {
+    width: 600px; /* Đặt chiều rộng của bảng là 100% của container */
+    height: auto; /* Đặt chiều cao của bảng là 300px */
+    background-color: rgb(255, 251, 0);
+    font-family:serif;
+    font-weight: normal;
+    color: red;
+}
+.lienhe{
+    background-color: black;
+    color: red;
+}

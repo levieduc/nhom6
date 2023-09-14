@@ -1,0 +1,25 @@
+body{
+    width: 100%;
+    background-image:url(img/black.png);
+}
+.containe{
+    width:100%;
+}
+.navbar{
+    background-color: black;
+}
+.text-center{
+    color: white;
+    background-image: url(img/a.png);
+}
+#carouselExampleAutoplaying{
+    width: 50%;
+    margin: auto;
+}
+#noibat{
+    color: white;
+    text-align: center;
+}
+.ke{
+    width: 100%;
+}
