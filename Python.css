@@ -1,8 +1,5 @@
 body{
-    background-color:rgb(255, 136, 0);
-
-    
-    
+    background-color: aliceblue;
 }
 #content{
     background-color: black;
@@ -14,19 +11,61 @@ body{
     justify-content: space-around; /* Các div con căn cách xa nhau */
     align-items: center; /* Căn giữa theo chiều dọc */
 }
-.Pagination{
-    display: flex; /* Sử dụng flexbox để căn giữa theo chiều dọc */
-    justify-content: center; /* Căn giữa theo chiều dọc */
-}
-table {
-    width: 600px; /* Đặt chiều rộng của bảng là 100% của container */
+.table1 {
+    width: 40%; /* Đặt chiều rộng của bảng là 100% của container */
     height: auto; /* Đặt chiều cao của bảng là 300px */
-    background-color: rgb(255, 251, 0);
+    background-color: rgb(166, 0, 255);
     font-family:serif;
     font-weight: normal;
-    color: red;
+    color: white;
+    border: 2px solid black;
+
 }
-.lienhe{
-    background-color: black;
-    color: red;
+#gach{
+    background-color:  rgb(17, 17, 63);
+    width: 100%;
+    height: 4px;
+    position: relative;
+    top: 10px;
 }
+#tren{
+    display: flex;
+
+    width: 80%;
+
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+}
+#trai1 img{
+    width: 90%;
+}
+#trai1{
+    width: 50%;
+}
+#duoi{
+    display: flex;
+
+    width: 80%;
+
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+}
+#trai{
+    width: 30%;
+}
+.gt{
+    border-bottom: 2px dashed black;
+}
+#phai{
+    width: 30%;
+}
+#giua{
+    width: 30%;
+    margin: 0 auto;
+}
+#giua img{
+    width: 100%;
+}
+

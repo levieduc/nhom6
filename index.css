@@ -1,25 +1,50 @@
 body{
     width: 100%;
-    background-image:url(img/black.png);
+    background-image:url(img/b.jpg);
+    background-size: contain;
 }
 .containe{
     width:100%;
 }
 .navbar{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 .text-center{
     color: white;
     background-image: url(img/a.png);
 }
 #carouselExampleAutoplaying{
-    width: 50%;
+    width: 70%;
     margin: auto;
 }
 #noibat{
     color: white;
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.khungthu3{
+    padding-bottom: 20px;
 }
 .ke{
     width: 100%;
+}
+#gioithieu{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    background-image: url(img/0d0eee7.png);
+    background-size: contain;
+}
+#nhom{
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+#gioithieu h1{
+    padding-top: 30px;
+    padding-left: 30px;
+    color: rgb(148, 0, 177);
+}
+#oneh{
+    padding-left: 30px;
+    color:rgb(132, 1, 106);
 }
